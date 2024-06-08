@@ -1,32 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Multipurpose Calculator</title>
-</head>
-<body>
-    <h1>Multipurpose Calculator</h1>
-    <form action="" method="post">
-        <label for="num1">Number 1:</label>
-        <input type="number" id="num1" name="num1" step="any" required><br><br>
-        
-        <label for="num2">Number 2:</label>
-        <input type="number" id="num2" name="num2" step="any"><br><br>
-        
-        <label for="operation">Operation:</label>
-        <select id="operation" name="operation" required>
-            <option value="add">Addition</option>
-            <option value="subtract">Subtraction</option>
-            <option value="multiply">Multiplication</option>
-            <option value="divide">Division</option>
-            <option value="exponent">Exponentiation</option>
-            <option value="percentage">Percentage</option>
-            <option value="sqrt">Square Root</option>
-            <option value="log">Logarithm</option>
-        </select><br><br>
-        
-        <button type="submit">Calculate</button>
-    </form>
-
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $num1 = isset($_POST['num1']) ? floatval($_POST['num1']) : 0;
@@ -79,5 +50,3 @@
         echo "<h2>Result: " . htmlspecialchars($result) . "</h2>";
     }
     ?>
-</body>
-</html>
