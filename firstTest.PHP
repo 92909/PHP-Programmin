@@ -42,7 +42,15 @@
     echo("My name is Kimutai <br>"."<br>");
     echo($names[1]."<br>");
     echo "<h1>Hello there! </h1>";
-    echo "<h1>Hello $secondNames[1]</h1>"
+    echo "<h1>Hello $secondNames[1]</h1>";
+    print "Kimutai";
+    $name = 'Linus';
+    echo '<h1>Hello $name</h1>';
+    echo "<h1>Hello $name</h1>";
+    echo "<br>";;
+    echo "<br>";
+    echo "<br>";
+
     ?>
     <a href="#"><button id = "firstButton" type="button" target="_blank">CALCULATE</button></a>
 </body>
