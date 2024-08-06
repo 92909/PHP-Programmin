@@ -1,0 +1,69 @@
+body {
+    background-color: lightgrey;
+}
+.firstSection {
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 70px;
+}
+
+.firstInput {
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    
+}
+.secInput {
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+}
+.firstButton {
+    width: 84px;
+    height: 28px;
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    top: 15px;
+}
+.secondSection {
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 90px;
+}
+
+.secSectionInput1 {
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+}
+.secSectionInput2 {
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    top: 25px;
+}
+.secSectionInput3 {
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    top: 35px;
+}
+
+.secondButton {
+    width: 84px;
+    height: 28px;
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    top: 35px;
+    
+}
